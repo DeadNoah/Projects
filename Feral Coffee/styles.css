@@ -788,6 +788,13 @@ footer {
         display: block;
     }
 
+    .hero {
+        position: relative;
+        height: 100vh;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)),
+            url('images/mobile.png');
+    }
+
     .hero-content {
         transition: opacity 0.3s ease;
         z-index: 1;
@@ -849,13 +856,6 @@ footer {
 @media (max-width: 480px) {
     .navbar {
         padding: 1rem;
-    }
-
-    .hero {
-        position: relative;
-        height: 100vh;
-        background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)),
-            url('images/mobile.png');
     }
 
     .hero-content h1 {

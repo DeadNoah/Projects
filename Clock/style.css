@@ -98,6 +98,10 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+
+    button {
+        font-size: 1em;
+    }
     
     .digital-clock {
         font-size: 5em;
